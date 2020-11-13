@@ -15,7 +15,7 @@ using namespace std;
 class game {
 private:
   int code_length = 4; //max code length is 16
-  int colour_count = 8;
+  int colour_count = 8; //amount of colours
   int code[16];
 
   //additional game inforamtion
